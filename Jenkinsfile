@@ -11,6 +11,6 @@ def set_environment_variables(){
 //def rootDir = pwd()
 def props = readProperties interpolate: true, file:"variables.properties"
 
-env.clarity_version="${props["WINDOWS_CLARITY_VERSION"]}"
+env.clarity_version="${props['WINDOWS_CLARITY_VERSION']}"
 
 }
