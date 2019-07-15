@@ -3,7 +3,7 @@ def OS='WINDOWS'
 def rootDir = pwd()
 //def example = load "${rootDir}@script/new.groovy"
 def value=set_environment_variables()
-  echo "{value}"
+  echo "${value}"
 }
 
 def set_environment_variables(){
