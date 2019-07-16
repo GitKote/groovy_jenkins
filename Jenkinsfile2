@@ -5,10 +5,11 @@ agent any
 stages {
 
 stage('Initialization') {
+steps {
 script {
 load "file1.groovy"
 }
 }
-
+}
 }
 }
