@@ -9,6 +9,7 @@ steps {
 script {
 load "new.groovy"
 echo "${env.clarity_version}"
+echo "${clarity_version}"
 }
 }
 }
