@@ -1,0 +1,14 @@
+pipeline {
+
+agent any
+
+stages {
+
+stage('Initialization') {
+script {
+load "file1.groovy"
+}
+}
+
+}
+}
