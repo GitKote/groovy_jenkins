@@ -22,5 +22,5 @@ echo "${clarity_version}"
 }
 }
 }
-
+}
 }
