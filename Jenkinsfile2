@@ -8,7 +8,7 @@ stage('Initialization') {
 steps {
 script {
 load "new.groovy"
-
+sh 'printenv'
 }
 }
 }
