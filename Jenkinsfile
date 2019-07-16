@@ -8,7 +8,7 @@ def value=set_environment_variables(OS)
 
 def set_environment_variables(OS){
 //read from properties file
-def rootDir = pwd(OS)
+def rootDir = pwd()
 def props = readProperties interpolate: true, file:"${rootDir}@script/variables.properties"
 env.clarity_version="${props["${OS}_CLARITY_VERSION"]}"
 return "${env.clarity_version}"
