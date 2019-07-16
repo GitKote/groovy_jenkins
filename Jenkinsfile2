@@ -7,7 +7,7 @@ stages {
 stage('Initialization') {
 steps {
 script {
-load "file1.groovy"
+load "new.groovy"
 }
 }
 }
