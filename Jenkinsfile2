@@ -8,10 +8,17 @@ stage('Initialization') {
 steps {
 script {
 load "new.groovy"
+
+}
+}
+}
+
+stage('secondry') {
+steps {
+script {
+
 echo "${env.clarity_version}"
 echo "${clarity_version}"
-}
-}
 }
 }
 }
